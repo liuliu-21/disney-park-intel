@@ -1,0 +1,33 @@
+{
+  "dataset": "Shanghai Disney one-day itinerary queries",
+  "version": "rewrite-v4",
+  "uniqueQueries": 1796,
+  "splits": {
+    "train": 1437,
+    "test": 179,
+    "validation": 180
+  },
+  "candidateCountBeforeDeduplication": 1800,
+  "excludedExactDuplicates": 4,
+  "inputUnchanged": true,
+  "trainInputsMatchReviewedAnswerCount": 1437,
+  "sourceFamiliesDisjointAcrossSplits": true,
+  "familyCount": 287,
+  "files": {
+    "test.jsonl": {
+      "sha256": "471963b2be193ecb84324a65e1d272aa927c37cc8e14f70ddc20f8978a6bb416",
+      "bytes": 274508
+    },
+    "train.jsonl": {
+      "sha256": "bdaf6f38431ba0b2a33489393496c6842ce47b9b6f0612b3392f1f481fe541bb",
+      "bytes": 2177031
+    },
+    "validation.jsonl": {
+      "sha256": "d77f19780854e0ebed5e82d4bb08ea71d44e4b11916c8513fa53a62a9e01b799",
+      "bytes": 273755
+    }
+  },
+  "scope": "Queries only; excludes source posts, source identifiers, credentials, answers and weights.",
+  "provenance": "Synthetic planning scenarios expanded from need categories, not verbatim user requests.",
+  "trainingApproved": false
+}
